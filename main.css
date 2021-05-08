@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./chase-baker--7MZ8haZw60-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: "Arvo", serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.countdown__container {
+    display: flex;
+    color: beige;
+}
+
+.big__text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: 600;
+}
+
+.countdown__item {
+    text-align: center;
+}
+
+.countdown__item span {
+    font-size: 1.5rem;
+}
